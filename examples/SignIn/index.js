@@ -11,8 +11,6 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import { useValidatedEmail, useValidatedPassword } from './sign-up-utils';
 
-const emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
 export const SignIn = ({ title }) => {
   const [email, setEmail, isInvalidEmail] = useValidatedEmail();
   const [password, setPassword, isInvalidPassword] = useValidatedPassword();
