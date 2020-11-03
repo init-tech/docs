@@ -1,5 +1,6 @@
 # Welcome to init! 🚀
 > init is a tool built so you can stop worrying about documentation and focus on your code.
+
 ## Getting Started
 Currently we are running a closed beta to ensure nothing [massively] breaks, you can get early access [here](https://init-tech.typeform.com/to/prpf3wWe).
 
